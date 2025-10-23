@@ -50,5 +50,7 @@ $result = $stmt->get_result();
 
 <a href="add_expense.php">➕ Add Another Expense</a> |
 <a href="index.php">🏠 Back to Home</a>
+<a href="export_expenses.php">📥 Export Expenses</a>
+
 
 <?php require_once __DIR__ . '/../templates/footer.php'; ?>

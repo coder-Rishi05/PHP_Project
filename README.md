@@ -1,13 +1,8 @@
 # 🧾 Personal Expense Tracker (PHP + MySQL)
 
-
-
 📁 Project Overview
 
-
 The Personal Expense Tracker is a web-based PHP project designed to help users record, categorize, and manage daily expenses. It uses a MySQL database for storing data and PHP for backend logic, along with HTML/CSS for the user interface.
-
-
 
 ## Project structure
 
@@ -54,3 +49,17 @@ expense-tracker/                ← project root folder
 4. A view page will list all entries with edit/delete options.
 
 5. Eventually, the project can include user login and data visualization.
+
+### Features
+
+1. User registration & login
+
+2. Session-based authentication & logout1.
+
+3. Add, View, Edit, Delete Expenses (CRUD)
+
+4. Dashboard showing total expenses & last 5 entries
+
+5. “Remember Me” cookie
+
+6. Export expenses as CSV

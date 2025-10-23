@@ -11,7 +11,7 @@ if (session_status() === PHP_SESSION_NONE) {
     <meta charset="UTF-8">
     <title>Expense Tracker</title>
     <!-- Fixed CSS path -->
-    <link rel="stylesheet" href="../public/style.css">
+    <link rel="stylesheet" href="../public//css//style.css">
 </head>
 
 <body>

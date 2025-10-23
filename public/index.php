@@ -32,7 +32,7 @@ $recentExpenses = $stmt->get_result();
 
 <h3>Total Expenses: ₹<?php echo number_format($totalExpenses, 2); ?></h3>
 
-<h3>Recent 5 Expenses</h3>
+<h3>Recent  Expenses</h3>
 <?php if ($recentExpenses->num_rows > 0): ?>
 <table border="1" cellpadding="8">
     <tr>

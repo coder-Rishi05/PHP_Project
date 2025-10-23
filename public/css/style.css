@@ -46,3 +46,81 @@ footer {
     background: #ddd;
     margin-top: 50px;
 }
+
+/* Navigation Bar */
+.nav-bar {
+    margin-top: 10px;
+}
+
+.nav-bar a {
+    margin-right: 15px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+/* User Greeting */
+.user-greeting {
+    text-align: right;
+    margin-top: 10px;
+    color: #f1f2f6;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    background-color: #4b7bec;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-top: 1px solid #dcdde1;
+    font-size: 14px;
+}
+
+/* Dashboard Totals */
+.dashboard-totals {
+    background-color: #ffeaa7;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Expense Table Category Color Coding */
+td.category-food { background-color: #fab1a0; }      /* Food */
+td.category-transport { background-color: #81ecec; } /* Transport */
+td.category-entertainment { background-color: #fd79a8; } /* Entertainment */
+td.category-other { background-color: #dfe6e9; }     /* Other */
+
+/* Buttons hover effect */
+button, .action-btn {
+    transition: 0.3s;
+}
+
+button:hover, .action-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Add some spacing for action links */
+.action-btn {
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #4b7bec;
+}
+
+.action-btn:hover {
+    background-color: #3867d6;
+}

@@ -1,8 +1,11 @@
-</main>
-<footer>
-    <div class="container">
-        <p>&copy; <?php echo date('Y'); ?> Expense Tracker. All rights reserved.</p>
-    </div>
-</footer>
-</body>
-</html>
+    </main> <!-- End of main container -->
+
+    <footer>
+        <div class="container">
+            &copy; <?php echo date('Y'); ?> Personal Expense Tracker. All rights reserved.
+        </div>
+    </footer>
+
+    </body>
+
+    </html>

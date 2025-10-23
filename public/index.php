@@ -34,6 +34,7 @@ $recentExpenses = $stmt->get_result();
 
 <h3>Recent 5 Expenses</h3>
 <?php if ($recentExpenses->num_rows > 0): ?>
+    
 <table border="1" cellpadding="8">
     <tr>
         <th>Title</th>
